@@ -9,18 +9,9 @@ const App = () => {
   
 
   return (
-    <Container className="m-0">
-      <Row>
-        <Col style={{ position: "relative" }}>
-          <div style={{ position: "absolute" }}>
-            <Particles />
-          </div>
-
-          <Navbar  />
-          
-        </Col>
-      </Row>
-    </Container>
+   <div>
+     <Particles/>
+   </div>
   );
 };
 

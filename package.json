@@ -54,12 +54,20 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@coinbase/wallet-sdk": "^3.0.5",
+    "@walletconnect/node": "^1.0.0",
+    "@walletconnect/qrcode-modal": "^1.7.7",
+    "@walletconnect/web3-provider": "^1.7.7",
     "bootstrap": "^5.1.0",
     "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
+    "ethers": "^5.6.2",
     "json5-loader": "^4.0.1",
     "node-polyfill-webpack-plugin": "^1.1.4",
     "react-bootstrap": "^1.6.1",
-    "react-tsparticles": "^1.34.0"
+    "react-tsparticles": "^1.34.0",
+    "web3": "^1.7.1",
+    "web3-detect-network": "^0.0.18",
+    "web3modal": "^1.9.5"
   }
 }
